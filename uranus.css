@@ -1,0 +1,36 @@
+body{ background-image: url("https://media.rnztools.nz/rnz/image/upload/s--7QOy_Mwx--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1651374554/4LSGKNS_049_f0324022_jpg");
+  background-size: cover;}
+
+h1{font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+h2{font-family: OCR A Std, monospace;
+  color: white;
+  text-align: center;
+  background-color: #3c5d7c;}
+
+p{font-family: OCR A Std, monospace;
+  color: #ffffff;
+  text-align: center;
+ font-size: 20px;}
+
+.blue{font-family: OCR A Std, monospace;
+       color: #ffffff;
+       text-align: center;
+      font-size: 20px;
+      background-color: #3c5d7c;}
+
+#explain{background-color:#3c5d7c;}
+
+button{position: relative;
+ left: 550px;
+padding: 5px;}
+
+input{position:relative;
+     left: 525px;}
+
+img{height: 200px;
+   width: 300px;
+   position: relative;
+   left: 520px;}

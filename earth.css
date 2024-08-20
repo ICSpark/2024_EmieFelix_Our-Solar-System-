@@ -1,0 +1,64 @@
+body{ background-image: url("https://itinerantanalyst.com/wp-content/uploads/2021/06/haleakala-16.jpg");
+     background-size:cover;}
+
+h1{ font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+h2{ font-family: OCR A Std, monospace;
+ color: white;
+ text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+  color: white;
+  text-align: center;
+ font-size: 20px;}
+
+button{ position: relative;
+       left: 550px;
+      padding: 5px;
+      background-color: #3f783f;}
+
+#crash{ position: relative;
+      left: 200px;
+      top: 150px;
+      height: 200px;
+      width:300px;}
+
+#crash {animation-name: crash;
+        animation-duration: 2s;
+        animation-timing-function: linear;}
+
+@keyframes crash {
+  from {
+    transform: translate(4000px, 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#redirection{
+  animation-name: redirection;
+  animation-direction: linear;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards; 
+}
+
+
+@keyframes redirection{
+  from{
+    transform: translate(0px,0px);
+  }
+  to{
+    transform: translate(-5000px,0px);
+  }
+}
+
+img{position: absolute;
+  left: 100px;}
+
+#dart{ color: blue;
+     background-color: white;}

@@ -1,0 +1,56 @@
+body{background-image: url("https://images.newscientist.com/wp-content/uploads/2020/10/06142805/cupola_with_clouds_and_ocean_web.jpg");
+    background-size: cover;}
+
+h1 {text-align: center;
+    font-family: OCR A Std, monospace;
+  color: white;
+   background-color: #186221;}
+
+p{text-align: center;
+ font-family: OCR A Std, monospace;
+ color: white;
+  font-size: 20px;
+  background-color:#186221;
+ margin-top: 20px;}
+
+#fact{text-align: center;
+      font-family: OCR A Std, monospace;
+      color: white;
+       font-size: 20px;
+       background-color:#186221;
+     position:absolute;
+     top:230px;
+     left:180px;}
+
+button{padding: 5px;
+      position: absolute;
+      left: 540px;}
+
+#space{padding: 5px;
+position: absolute;
+left: 540px;
+       top: 200px;}
+
+#inst{ position: absolute;
+     top: 290px;
+     left: 120px;}
+
+input { position: absolute;
+   top: 350px;
+      left:540px;}
+
+#submit {position:absolute;
+        top: 346px;
+        left: 720px;}
+
+#country{position: absolute;
+         top: 380px;
+         left:0px;}
+
+#pic{ height: 200px;
+     width: 400px;
+  position: absolute;
+     top: 470px;
+     left:480px;
+     margin-bottom: 3px;
+    border-radius: 5px;}

@@ -1,0 +1,33 @@
+body{ background-image: url("https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1624310294/210621-conversation-venus-surface-tease_sj7drc");
+  background-size: cover;
+}
+h1{font-family: OCR A Std, monospace;
+  color: white;
+  text-align:center;}
+
+h2{font-family: OCR A Std, monospace;
+color: white;
+text-align:center;
+  background-color: #c3b841;}
+
+button{padding: 5px;
+      position: relative;
+      left: 550px;
+      background-color: white;}
+
+p{font-family: OCR A Std, monospace;
+  color: white;
+ font-size: 20px;
+ text-align:center;
+ background-color: #c3b841;}
+
+
+img{height: 200px;
+width: 300px;
+position: relative;
+left: 520px;}
+
+
+#stank{ text-align: center;}
+#stinks{ text-align:center;}
+

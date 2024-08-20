@@ -1,0 +1,137 @@
+body{background-color: black;}
+
+h1{font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+h2{font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+  color: #ffffff;
+  text-align: center;
+ font-size: 20px;}
+
+button{ position: relative;
+ left: 550px;
+padding: 5px;}
+
+.space{ height: 500px;
+      width: 600px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      display:block;
+      border-radius: 5px;}
+
+#horizon:hover{
+  opacity:0;
+  transition: opacity 1s ease;}
+
+#horizon:not(:hover) {
+    transition: opacity 1s ease;}
+
+#hor{
+  position: absolute;
+  top: 200px;
+left: 10px;
+  z-index: -1;
+height: 500px;
+width: 580px;}
+
+#plut{ height: 300px;
+width: 300px;
+z-index: -1;
+ position: absolute;
+ top: 400px;
+ left: 160px;}
+
+#p10:hover{
+  opacity:0;
+  transition: opacity 1s ease;}
+
+#p10:not(:hover) {
+    transition: opacity 1s ease;}
+
+#ra{
+  position: absolute;
+  top: 750px;
+left: 10px;
+  z-index: -1;
+height: 500px;
+width: 580px;}
+
+#jup{ height: 200px;
+width: 200px;
+z-index: -1;
+ position: absolute;
+ top: 950px;
+ left: 160px;}
+
+#p11:hover{
+  opacity:0;
+  transition: opacity 1s ease;}
+
+#p11:not(:hover) {
+    transition: opacity 1s ease;}
+
+#sa{
+  position: absolute;
+  top: 1240px;
+left: 10px;
+  z-index: -1;
+height: 500px;
+width: 580px;}
+
+#turn{ height: 200px;
+width: 200px;
+z-index: -1;
+ position: absolute;
+ top: 1400px;
+ left: 160px;}
+
+#v1:hover{
+  opacity:0;
+  transition: opacity 1s ease;}
+
+#v1:not(:hover) {
+    transition: opacity 1s ease;}
+
+#cry{
+  position: absolute;
+  top: 1710px;
+left: 10px;
+  z-index: -1;
+height: 500px;
+width: 580px;}
+
+#dot{ height: 200px;
+width: 200px;
+z-index: -1;
+ position: absolute;
+ top: 2000px;
+ left: 160px;}
+
+#v2:hover{
+  opacity:0;
+  transition: opacity 1s ease;}
+
+#v2:not(:hover) {
+    transition: opacity 1s ease;}
+
+#voy{
+  position: absolute;
+  top: 2300px;
+left: 10px;
+  z-index: -1;
+height: 500px;
+width: 580px;}
+
+#discovery{ height: 200px;
+width: 200px;
+z-index: -1;
+ position: absolute;
+ top: 2500px;
+ left: 160px;}

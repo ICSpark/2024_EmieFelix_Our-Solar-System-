@@ -1,0 +1,30 @@
+body{ background-image: url("https://cdn.vox-cdn.com/thumbor/J85lBLditBHKUEguiZh8rPEmWqg=/0x0:3805x1288/1200x675/filters:focal(1599x340:2207x948)/cdn.vox-cdn.com/uploads/chorus_image/image/59799667/pia21974.0.jpg");
+  background-size: cover;}
+
+h1{ font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+  color: #ffffff;
+  text-align: center;
+ font-size: 20px;
+ background-color:#d08925;}
+
+input{display:block;
+      position:relative;
+      left:590px;}
+
+button{ position: relative;
+ left: 550px;
+padding: 5px;}
+
+#click{ position: relative;
+       left: 630px;
+      padding: 5px;}
+
+img{ height: 400px;
+    width: 400px;
+    position: relative;
+    left: 480px;
+    border-radius: 5px;}

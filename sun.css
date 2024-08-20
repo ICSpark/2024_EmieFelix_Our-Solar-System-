@@ -1,0 +1,35 @@
+body{
+  background-image: url("https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2021/11/12195450/A-beautiful-image-of-the-suns-surface-from-a-timelapse-video.jpg");
+  background-size: cover;
+}
+
+h1{font-family: OCR A Std, monospace;
+  color: white;
+  text-align:center;}
+
+h2{font-family: OCR A Std, monospace;
+color: white;
+text-align:center;}
+
+p{font-family: OCR A Std, monospace;
+  color: white;
+ font-size: 20px;
+ text-align:center;}
+
+button{background-color:yellow;
+       position: relative;
+      left: 540px;
+       padding: 5px;}
+
+#light{color:#429442;}
+
+#aurora{height: 290px;
+  width: 500px;
+  border-radius: 25px 25px 25px 25px;
+  border-width: thin;
+  position: relative;
+  left: 420px;}
+
+#but{background-color: #579bd6;
+    position: absolute;
+    left: 520px;}

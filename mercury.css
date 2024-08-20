@@ -1,0 +1,26 @@
+body{
+  background-image: url("https://www.thoughtco.com/thmb/zxb330T90Tk_-1OWTNMDtN18hFo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rupes-5a8225b7c064710037a96561.jpg");
+  background-size: cover;}
+
+h1{font-family: OCR A Std, monospace;
+   color: white;
+   text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+ color: white;
+ text-align: center;
+ font-size: 20px}
+
+button{ position: relative;
+       left: 550px;
+      padding: 5px;
+      background-color: grey;}
+
+input{ position: relative;
+     left: 550px;}
+
+#pic { width: 300px;
+     height: 300px;
+     position: relative;
+     left: 525px;
+     border-radius: 5px;}

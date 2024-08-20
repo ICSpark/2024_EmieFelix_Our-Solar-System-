@@ -1,0 +1,30 @@
+body{ background-image: url("https://www.pbs.org/wgbh/nova/media/images/death-dive-to-saturn-hero_f82MwTt.width-2000.png");
+  background-size: cover;}
+
+h1{ font-family: OCR A Std, monospace;
+   color: white;
+   text-align: left;}
+
+h2{ font-family: OCR A Std, monospace;
+  cursor: pointer;
+  color: white;
+  background-color: #70b4f0;
+  text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+  color: #ffffff;
+  text-align: center;
+ font-size: 20px;
+ background-color: #70b4f0;}
+
+button{ position: relative;
+ left: 550px;
+padding: 5px;}
+
+img{height: 250px;
+   position: relative;
+   left: 500px;
+   border-radius: 5px;}
+
+.Facts{display:none;}
+

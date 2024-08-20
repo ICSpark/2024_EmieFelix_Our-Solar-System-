@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mars</title>
+    <link href="mars.css" rel="stylesheet" type="text/css" />
+
+  </head>
+<body>
+  <h1>Mars</h1>
+ <p> Welcome to Mars The Red Planet! Mars get it's nickname becuase it is obviously red due to the iron materials oxidating or rusting, but it's name derives from the Roman God of War, Mars. Scientists are currently searching for signs of life on Mars that existed long ago since it was warmer and covered with water. A full rotation of Mars or day is about 24.6 hours and an orbit is or year is 687 Earth days. Like Earth, Mars also has moons. Not only one but two!  Phobos and Deimos are both potato shaped due to their little mass which doesn't make them spherical enough.</p>
+ <a href="index.html"><button> Click here to go back to the solar system</button></a>
+  <p> Guess the name of the three most recent rovers sent to mars. Input your guesses in the input boxes. The choices are Opportunity, Perseverance, and Curiosity.I suggest that you can try research based on the hints given :)</p>
+  
+  <div>
+  <img id ="perseverance" class = "rover" src="https://images.english.elpais.com/resizer/xbsB6WPf9rCtcC5ffnhupwF-zjk=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/MSFG3VN3TPWFFCKJBUCXIRGSOU.jpg" alt="">
+    <input type="text" id = "per"> 
+    <button class = "check" onclick= "checkPer()"> Submit guess</button>
+    <p id = "pers" class = "desc."> This rover is NASA's most recent launch that landed back in Febuary 18, 2021. This rover's obective is to collect rocks and soil on Mar's surface to return back to Earth via small rocket. A small helicopter was also sent with this rover to test flight on another planet. </p>
+  </div>
+    
+    <div>
+  <img id = "curiosity" class = "rover" src="https://opn-web-afd-d3bfbkd5bcc5asbs.z02.azurefd.net/opn/media/images/articles/1301/features/melikechi-img1.jpg?t=638452530109991860" alt="">
+    <input type="text" id ="curious">
+    <button class = "check" onclick="checkCur()"> Submit guess</button>
+    <p id = "curi" class = "desc.">This rover landed back in August 6, 2012. This rover's objective was to find out if Mars is habitable for microbial life. The rover has a large retractable arm to collect rocks and soil on Mars and behave like a geologist would. </p>
+      </div>
+
+    <div>
+  <img id = "opportunity" class = "rover" src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/16q3/669461/we-drive-the-mars-opportunity-rover-review-car-and-driver-photo-671067-s-original.jpg?fill=1:1&resize=1200:*" alt="">
+    <input type="text" id ="opp">
+    <button class = "check" onclick="checkOpp()"> Submit guess</button>
+    <p id = "oppo" class = "desc."> This rover landed in January 24, 2004 and unforuntately died in Febuary 13, 2009 because of a dust storm. The rover's objective was to search for a range of rocks and soil types and then look for clues for past water activity on Mars. During it's lifetime it was able to exceed marathon distance on another world. </p>
+    </div>
+   <script src="mars.js"></script>
+
+</body>
+</html>

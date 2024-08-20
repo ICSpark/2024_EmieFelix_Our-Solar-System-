@@ -1,0 +1,26 @@
+body{ background-image: url("https://smd-cms.nasa.gov/wp-content/uploads/2023/06/as11-44-6551_1280-main-jpg.webp");
+    background-size: cover;}
+
+h1{ font-family: OCR A Std, monospace;
+   color: white;
+  text-align: center;}
+
+p{font-family: OCR A Std, monospace;
+  color: white;
+  text-align: center;
+ font-size: 20px;}
+
+img{ height: 250px;
+   width: 250px;
+   position:relative;
+   left: 550px;}
+
+button{padding: 5px;
+      position:relative;
+      left: 550px;}
+
+input{position:relative;
+     left: 280px;}
+
+.butt{position:relative;
+     left: 285px;}

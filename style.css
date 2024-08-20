@@ -1,0 +1,231 @@
+html {
+  height: 100%;
+  width: 100%;}
+
+h1 {
+  text-align: center;
+  font-family: Impact, fantasy;
+  color: white;}
+
+h2 {
+  text-align: center;
+  font-family: OCR A Std, monospace;
+  color: white;}
+
+.click:hover{
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.click:not(:hover) {
+    transition: transform 1s ease;
+    transform: scale(1);
+}
+
+button{padding: 5px;}
+
+
+body{
+  background-image: url(https://img.freepik.com/premium-photo/black-white-glow-dust-particles-abstract-background_562847-978.jpg);
+  background-size: cover;
+}
+
+#sun {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1500px;
+  width: 1500px;
+}
+
+#mercury{
+  position:absolute;
+  top: 2000px;
+  left: 500px;
+  height: 100px;
+  width: 100px;
+}
+
+#merc{
+  color:white;
+  position: absolute;
+  top: 2000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#venus{
+  position:absolute;
+  top: 3600px;
+  left: 500px;
+  height: 500px;
+  width: 500px;
+}
+
+#ven{
+  color:white;
+  position: absolute;
+  top: 3600px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#earth{
+  position:absolute;
+  top: 5000px;
+  left: 500px;
+  height: 500px;
+  width: 500px;}
+
+#iss{ position:absolute;
+     top: 4930px;
+     left: 600px;
+     height: 50px;
+     width: 50px;}
+
+#hubble{position:absolute;
+ top: 5499px;
+ left: 600px;
+ height: 50px;
+ width: 50px;}
+
+#ear{
+  color:white;
+  position: absolute;
+  top: 5000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#moon{
+  position:absolute;
+  top: 5000px;
+  left: 990px;
+  height: 75px;
+  width: 75px;
+}
+
+#mars{
+  position:absolute;
+  top:6500px;
+  right: 500px;
+}
+
+#mar{
+  color:white;
+  position: absolute;
+  top: 6500px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#belt{
+  position:absolute;
+  top: 8000px;
+  left:1px;
+  height: 750px;
+  width: 1900px;
+}
+
+#bel{
+  color:white;
+  position: absolute;
+  top: 8000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#jupiter{
+  position:absolute;
+  top: 9000px;
+  left: 450px;
+  right: 40px
+  height: 900px;
+  width: 900px;
+}
+
+#jup{
+  color:white;
+  position: absolute;
+  top: 9000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#saturn{
+  position:absolute;
+  top: 12000px;
+  right:100px;
+  height: 400px;
+  width: 900px;
+}
+
+#sat{
+  color:white;
+  position: absolute;
+  top: 12000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#uranus{
+  position:absolute;
+  left: 500px;
+  top: 15000px;
+  height: 300px;
+  width: 300px;
+}
+
+#ur{color:white;
+   position: absolute;
+   top: 15000px;
+   font-family: OCR A Std, monospace;
+   font-size: 30px;}
+
+#neptune{
+  position:absolute;
+  top:20000px;
+  left: 600px;
+  height: 300px;
+  width: 300px;
+}
+
+#nep{
+  color:white;
+  position: absolute;
+  top: 20000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
+}
+
+#Kuiper{
+  position:absolute;
+  top:25100px;
+  left:1px;
+  height: 750px;
+  width: 1900px;
+}
+
+#Kup{
+  color:white;
+  position: absolute;
+  top: 25000px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;  
+}
+
+#NASA{
+  position:absolute;
+  top:26000px;
+  left:300px;
+  height: 400px;
+  width: 500px;
+}
+
+#nas{
+  color:white;
+  position: absolute;
+  top: 25900px;
+  font-family: OCR A Std, monospace;
+  font-size: 30px;  
+}
